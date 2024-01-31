@@ -35,7 +35,8 @@ def generate_md_file(model: str = MODEL,
     """
     print(f'Generating MD file {directory}...')
     current_datetime = datetime.datetime.now()
-    filename = os.path.join(directory, current_datetime.strftime("%Y-%m-%d_%H-%M-%S") + ".md")
+    
+    filename = os.path.join(directory, f'{MODEL} - {current_datetime.strftime("%Y-%m-%d_%H-%M-%S")}.md')
     
     signature = inspect.signature(generate_md_file)
     parameters = signature.parameters
