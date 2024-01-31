@@ -1,5 +1,5 @@
-MODEL="gpt-3.5-turbo"
-#MODEL="gpt-4-turbo-preview"
-SYSTEM_PROMTP="You are a reliable assistant that helps with user inquiries"
+#MODEL="gpt-3.5-turbo"
+MODEL="gpt-4-turbo-preview"
+SYSTEM_PROMPT="You are a reliable assistant that helps with user inquiries"
 USER_PROMPT="Help me parse a json in python"
 DIRECTORY="output/"
