@@ -1,4 +1,4 @@
 scripts/.gpt-venv/*
 __pycache__
-output/*
+output/*.md
 scripts/env-vars.sh
