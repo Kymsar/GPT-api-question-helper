@@ -1,0 +1,4 @@
+env-vars.sh
+.gpt-venv
+__pycache__
+output/*
